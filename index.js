@@ -16,4 +16,4 @@ let i=0;
 const intervalId = setInterval(function () {
     cam.frame(imageData);
     fs.writeSync(fb, imageData, 0, imageData.byteLength, 0);
-}, 1000/12.5);
+}, 1000/10);
